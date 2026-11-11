@@ -2213,7 +2213,7 @@ class WidgetComponent(_NoNewAttrMixin):
             hex color string.
 
         ribbon_opacity : float, optional
-            Opacity of ribbon. Defaults to 1.0 and must be between
+            Opacity of ribbon. Defaults to 0.5 and must be between
             ``[0, 1]``.
 
         pass_widget : bool, optional
@@ -2368,7 +2368,7 @@ class WidgetComponent(_NoNewAttrMixin):
             hex color string.
 
         ribbon_opacity : float, optional
-            Opacity of ribbon. Defaults to 1.0 and must be between
+            Opacity of ribbon. Defaults to 0.5 and must be between
             ``[0, 1]``.
 
         initial_points : MatrixLikeFloat, optional

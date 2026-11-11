@@ -92,7 +92,7 @@ class UnstructuredGridFilters(DataSetFilters):
             process datasets with no cells (and just points). If on in this
             case, and there are no cells, the output will be empty.
 
-        produce_merge_map : bool, default: False
+        produce_merge_map : bool, default: True
             Indicate whether a merge map should be produced on output.
             The merge map, if requested, maps each input point to its
             output point id, or provides a value of -1 if the input point

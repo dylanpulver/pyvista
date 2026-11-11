@@ -3399,7 +3399,7 @@ class GaussianCubeReader(BaseReader['DataSet']):
 
         Parameters
         ----------
-        grid : bool, default: False
+        grid : bool, default: True
             Output as a grid if ``True``, otherwise return the polydata.
 
         validate : bool, optional
